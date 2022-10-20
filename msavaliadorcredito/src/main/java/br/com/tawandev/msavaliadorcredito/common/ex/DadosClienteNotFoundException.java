@@ -1,0 +1,9 @@
+package br.com.tawandev.msavaliadorcredito.common.ex;
+
+public class DadosClienteNotFoundException extends Exception {
+
+    public DadosClienteNotFoundException() {
+        super("Dados do cliente não encontrados para o CPF informado");
+    }
+
+}
